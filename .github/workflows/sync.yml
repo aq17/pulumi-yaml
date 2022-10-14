@@ -1,11 +1,8 @@
 name: Sync Files
 
-# on:
-#   release:
-#     types: [published]
 on:
-  pull_request:
-    types: [opened, reopened]
+  release:
+    types: [published]
 
 jobs:
   convert-test-sync:
