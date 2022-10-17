@@ -1,3 +1,5 @@
 aq17/pulumi:
-  - source: pkg/pulumiyaml/testing/test/testdata/
-    dest: pkg/codegen/testing/test/testdata
+  - source: pkg/tests/transpiled_examples
+    dest: pkg/codegen/testing/test/testdata/transpiled_examples
+    exclude: |
+      .gitignore
