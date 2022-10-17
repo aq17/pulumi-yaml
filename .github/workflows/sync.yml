@@ -15,6 +15,6 @@ jobs:
         uses: BetaHuhn/repo-file-sync-action@v1
         with:
           GH_PAT: ${{ secrets.MY_PAT }}
-          REVIEWWERS: |
+          REVIEWERS: |
             aq17
           PR_BODY: "This PR syncs changes to the codegen'd PCL files from the latest `pulumi/yaml` release"
