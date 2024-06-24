@@ -29,6 +29,7 @@ jobs:
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             git checkout ./go.mod && git checkout ./go.sum
+            
           fi
   check-copyright:
     runs-on: ubuntu-latest
